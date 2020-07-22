@@ -1,8 +1,8 @@
 describe('Bubble Sort', function () {
-  it('returns an array', function () {
+  it('returns an object', function () {
     const result = bubbleSort([4, 6, 2, 3]);
 
-    expect(typeof result).toEqual('array');
+    expect(typeof result).toEqual('object');
   });
 
   it('handles an empty array', function () {
